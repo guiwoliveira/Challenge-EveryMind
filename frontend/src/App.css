@@ -1,0 +1,44 @@
+form{
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form input, textarea{
+  margin-bottom: 15px;
+}
+
+form input[type="button"] {
+  margin-right: 10px;
+  color: #FFFFFF;
+  padding: 8px 24px;
+  border-radius: 7px;
+  border: 0px
+}
+
+/* * Botões */
+button {
+  color: #ffffff;
+  padding: 5px 24px;
+  border-radius: 7px;
+  border: 0px
+}
+
+form input[value="Editar"],[value="Cadastrar"] {
+  background-color: #009DFF;
+}
+
+form input[value="Excluir"] {
+  background-color: #FF4444;
+}
+
+form input[value="Cancelar"] {
+  background-color: #616161;
+}
+
+button[value="Selecionar"] {
+  background-color: #31F787;
+}
+
+
+
